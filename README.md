@@ -36,3 +36,7 @@ Next, the mixing process is performed. The mixing process for the sample boundar
 <p align="center">
   <img src="https://github.com/diniyrti/Synthetic_Data_for_Semantic_Segmentation/blob/main/images/Figure%206.jpg?raw=true" width="700">
 </p>
+
+### Reference 
+Clabaut, É., Foucher, S., Bouroubi, Y., & Germain, M. (2024). Synthetic Data for Sentinel-2 Semantic Segmentation. Remote Sensing, 16(5), 818. https://doi.org/10.3390/rs16050818
+
