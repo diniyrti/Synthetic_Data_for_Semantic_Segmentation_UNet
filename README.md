@@ -22,11 +22,17 @@ The polygons then serve as basic units of analysis that are manually labeled wit
 </p>
 
 Next, the mixing process is performed. The mixing process for the sample boundaries to be simulated is carried out using the following steps. An example of the synthetic data results can be seen in Figure 6:
+
 •	Creation of a binary mask that allows for cutting the background;
+
 •	Application of a 3x3 "average" type convolution on the binary mask to obtain mixing proportions on the object’s boundaries, called a "soft" mask hereafter;
+
 •	Cutting the background with softening of the edges;
+
 •	Softening of the edges for the object to be added;
+
 •	Sum of the sample and the background mosaic weighted by the filtered mask;
+
 •	The ground truth is the mask used to "paste" the sample.
 
 <p align="center">
