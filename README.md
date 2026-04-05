@@ -43,6 +43,13 @@ Next, the mixing process is performed. The mixing process for the sample boundar
   <img src="https://github.com/diniyrti/Synthetic_Data_for_Semantic_Segmentation/blob/main/images/Figure%206.jpg?raw=true" width="700">
 </p>
 
+## Synthetic Dataset for Land Use Classification Using UNet
+This project implements a 4-level encoder-decoder U-Net architecture designed for the multiclass semantic segmentation of Sentinel-2 MSI imagery. Utilizing 10 spectral bands, the model classifies 16 distinct land cover categories. A Dice Loss function was employed during training to optimize spatial overlap and maintain the integrity of complex land boundaries.
+
+The learning curves demonstrate rapid and stable convergence, with both training and validation loss decreasing sharply within the first 20 epochs. Validation metrics reached a stable, showing a consistent trend with the training data. This alignment indicates that the model effectively captured the underlying spatial features from the synthetic dataset with minimal overfitting.
+
+Upon final evaluation, the model achieved robust performance metrics, including a test loss of 0.219, a test accuracy of 0.775, and a mean Intersection over Union (mIoU) of 0.653. These results confirm that the framework provides a reliable foundation for automated land cover mapping and large-scale environmental monitoring applications.
+
 ### Reference 
 Clabaut, É., Foucher, S., Bouroubi, Y., & Germain, M. (2024). Synthetic Data for Sentinel-2 Semantic Segmentation. Remote Sensing, 16(5), 818. https://doi.org/10.3390/rs16050818
 
